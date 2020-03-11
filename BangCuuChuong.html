@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 1px solid;
+        }
+        tr,td{
+            border: 1px solid;
+        }
+    </style>
+    <script>
+        function Table2() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 2 " + "=" + 2 * i + "</br>";
+                document.getElementById("2").innerHTML = str;
+                }
+        }
+        function table3() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 3 " + "=" + 3 * i + "</br>";
+                document.getElementById("3").innerHTML = str;
+            }
+        }
+        function table4() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 4 " + "=" + 4 * i + "</br>";
+                document.getElementById("4").innerHTML = str;
+            }
+        }
+        function table5() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 5 " + "=" + 5 * i + "</br>";
+                document.getElementById("5").innerHTML = str;
+            }
+        }
+        function table6() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 6 " + "=" + 6 * i + "</br>";
+                document.getElementById("6").innerHTML = str;
+            }
+        }
+        function table7() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 7 " + "=" + 7 * i + "</br>";
+                document.getElementById("7").innerHTML = str;
+            }
+        }
+        function table8() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 8 " + "=" + 8 * i + "</br>";
+                document.getElementById("8").innerHTML = str;
+            }
+        }
+        function table9() {
+            let str = '';
+            for (i = 1; i <= 9; i++) {
+                str += i + " x 9 " + "=" + 9 * i + "</br>";
+                document.getElementById("9").innerHTML = str;
+            }
+        }
+    </script>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td id="2" onclick="Table2()">2</td>
+        <td id="3" onclick="table3()">3</td>
+        <td id="4" onclick="table4()">4</td>
+        <td id="5" onclick="table5()">5</td>
+        <td id="6" onclick="table6()">6</td>
+        <td id="7" onclick="table7()">7</td>
+        <td id="8" onclick="table8()">8</td>
+        <td id="9" onclick="table9()">9</td>
+
+    </tr>
+</table>
+</body>
+</html>
